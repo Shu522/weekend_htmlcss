@@ -1,0 +1,11 @@
+/* 
+    css : cascading style sheet
+    html에 <style>을 모두 적으면 너무 길어져서 분리
+
+*/
+.a{
+    display: flex;
+    height: 500px;
+}
+
+
