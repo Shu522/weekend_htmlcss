@@ -1,0 +1,45 @@
+.kakao2 {
+  background-color: #fde500;
+  padding: 30px 70px 30px 70px;
+  border: 1px solid #fde500;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.apple2 {
+  background-color: white;
+  padding: 30px 70px 30px 70px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.face {
+  background-color: #1877f2;
+  color: white;
+  border: 1px solid #1877f2;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.goo {
+  background-color: white;
+  color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.app {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}

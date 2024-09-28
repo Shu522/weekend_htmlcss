@@ -1,0 +1,55 @@
+.member {
+  color: #73a0b8;
+  border: 1px solid #73a0b8;
+  /* border: 선 두께 선 타입 색깔 */
+  border-radius: 4px;
+  background-color: white;
+}
+
+.margin {
+  border: 1px solid #98ebcb;
+  border-radius: 4px;
+  background-color: #98ebcb;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.box {
+  border: 1px solid #98ebcb;
+  border-radius: 4px;
+  background-color: #98ebcb;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.back {
+  border: 1px solid #9dd7ff;
+  border-radius: 4px;
+  background-color: #9dd7ff;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.cursor {
+  border: 1px solid #9dd7ff;
+  border-radius: 4px;
+  background-color: #9dd7ff;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.font {
+  border: 1px solid #c9c5ff;
+  border-radius: 4px;
+  background-color: #c9c5ff;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.line {
+  border: 1px solid #c9c5ff;
+  border-radius: 4px;
+  background-color: #c9c5ff;
+  padding-top: 3px;
+  font-weight: 600;
+}
