@@ -1,0 +1,11 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-image: url("1.png");
+  /* 배경사진 넣기 */
+  background-size: cover;
+  /* 배경사진 비율 맞추기
+  cover: 일부 짤리고 비율 맞추기
+  contain: 모두 넣고 비율 살짝 안맞기
+    */
+}

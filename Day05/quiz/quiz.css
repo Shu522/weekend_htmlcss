@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "RixXladywatermelonR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-4@1.0/RixXladywatermelonR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HakgyoansimBadasseugiTTF-L";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.con {
+  display: flex;
+  height: 800px;
+  gap: 20px;
+}
+
+.hotel {
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-position: 50% 50%;
+}
+
+.a {
+  background-image: url(11.jpg);
+}
+
+.b {
+  background-image: url(22.jpg);
+}
+
+.c {
+  background-image: url(33.jpg);
+}
+
+.d {
+  background-image: url(44.jpg);
+}
+
+.top {
+  font-family: "HakgyoansimBadasseugiTTF-L";
+  margin: 20px;
+  font-size: 13px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.mid {
+  font-family: "RixXladywatermelonR";
+  margin: 15px;
+  font-size: 25px;
+}
+
+.bot {
+  font-family: "HakgyoansimBadasseugiTTF-L";
+  margin: 20px;
+  font-size: 13px;
+}

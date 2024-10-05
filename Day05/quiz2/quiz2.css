@@ -1,0 +1,46 @@
+.sns {
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 30px 10px 30px 10px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.ti2 {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

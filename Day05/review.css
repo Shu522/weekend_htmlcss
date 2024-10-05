@@ -1,0 +1,22 @@
+.con {
+  display: flex;
+  gap: 5px;
+}
+
+.bu {
+  border-radius: 9999px;
+  padding: 30px;
+  color: white;
+  font-size: 30px;
+}
+
+.mas {
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  margin-right: 10px;
+}
+
+.app {
+  background-color: black;
+  border: 1px solid black;
+}
