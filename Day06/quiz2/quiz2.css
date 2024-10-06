@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "GabiaGosran-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/GabiaGosran-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  height: 20px;
+  gap: 10px;
+}
+
+.ab {
+  height: 70px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+  gap: 10px;
+  background-color: white;
+  font-family: "GabiaGosran-Regular";
+  transition: all 1s cubic-bezier(0.28, 1.14, 0.28, 0.62);
+}
+
+.ab:hover {
+  background-color: #dbdbdb;
+}
+
+.con {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.link {
+  color: #1f1f1f;
+  font-family: "Pretendard-Regular";
+  padding: 14px 16px;
+  border-radius: 34px;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  background-color: #f2f2f2;
+}
+
+.color {
+  color: #ff5160;
+}

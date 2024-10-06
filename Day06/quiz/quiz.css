@@ -1,0 +1,61 @@
+.con {
+  width: 250px;
+  height: 500px;
+  background-image: url(o.png);
+  background-size: cover;
+  position: relative;
+}
+
+.album {
+}
+
+.text {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+}
+
+.texta {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.textb {
+  border: 1px solid #8f82f4;
+  background-color: #8f82f4;
+  color: white;
+  padding: 5px;
+}
+
+.icon {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  border: 0px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 30px;
+  color: white;
+}
+
+.info {
+  padding: 10px;
+  gap: 5px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.price > span {
+  color: #da84cb;
+  margin-right: 5px;
+  font-weight: 700;
+}

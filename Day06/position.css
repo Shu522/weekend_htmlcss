@@ -1,0 +1,40 @@
+.con {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+.a {
+  background-color: #f6e58d;
+  position: fixed;
+  top: 0px;
+}
+
+.b {
+  background-color: #ffbe76;
+  position: relative;
+}
+
+.c {
+  background-color: #f9ca24;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  z-index: 1;
+}
+
+.d {
+  background-color: #f0932b;
+  /* 포지션 위치 조정 속성 top,bottom,left,right 필수 */
+  /* relative(상대): 지금 위치에서 */
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  left: 10px;
+}
