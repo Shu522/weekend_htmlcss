@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+}
+
+.first {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bluetext {
+  color: skyblue;
+}
+
+.textbox {
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 50px;
+}
+
+.ex {
+  color: #dbdbdb;
+}
+
+.btnbox {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.apple {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+}
+
+.app {
+  align-items: center;
+}
