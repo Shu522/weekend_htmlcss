@@ -1,0 +1,41 @@
+.headerBox {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #555;
+}
+
+.title {
+  position: absolute;
+  left: 330px;
+  font-size: var(--font-size-x-large);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 400px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card > li:hover {
+  background-color: #dbdbdb;
+  color: #555;
+  transition: all 0.5s;
+}
+
+.a {
+  border: 1px solid #555;
+  padding: 20px 40px;
+  color: white;
+  font-size: var(--font-size--base);
+}

@@ -1,0 +1,52 @@
+.innerBox {
+  height: 100vh;
+  background-image: url(./images/basketball-108622_1280.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.innerBox > .inner {
+  position: absolute;
+  top: 33%;
+}
+
+.inner {
+  padding: 0 300px;
+  height: 300px;
+  position: relative;
+}
+
+.innerTitle {
+  font-size: 120px;
+  color: white;
+}
+
+.innerText {
+  color: var(--color--text);
+  margin-top: 20px;
+}
+
+.inner > a {
+  position: absolute;
+  bottom: 40px;
+}
+
+.link {
+  border: 1px solid var(--color--link);
+  padding: 10px 150px;
+  font-size: var();
+  font-weight: lighter;
+  color: var(--color--link);
+  text-decoration: none;
+}
+
+.link:hover {
+  border: 1px solid #dbdbdb;
+  background-color: #dbdbdb;
+  color: var(--color--text);
+  transition: all 0.5s;
+}
